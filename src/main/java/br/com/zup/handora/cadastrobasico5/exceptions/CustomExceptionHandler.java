@@ -49,7 +49,7 @@ public class CustomExceptionHandler {
         Integer codigoHttp = badRequestStatus.value();
         String mensagemHttp = badRequestStatus.getReasonPhrase();
 
-        String mensagemGeral = "Erro de formatação JSON";
+        String mensagemGeral = "Erro de formatação JSON.";
 
         ErroPadronizado erroPadronizado = new ErroPadronizado(
             codigoHttp, mensagemHttp, mensagemGeral
