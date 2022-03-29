@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-CadastroBasico5Application<cadastro-basico5>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "br.com.zup.handora.cadastrobasico5.CadastroBasico5Application",
+      "projectName": "cadastro-basico5",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
