@@ -8,6 +8,8 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.PastOrPresent;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class PetDTO {
 
     @NotBlank
@@ -15,6 +17,7 @@ public class PetDTO {
 
     @NotNull
     @PastOrPresent
+    @JsonProperty("data_nascimento")
     private LocalDate dataNascimento;
 
     @NotNull
